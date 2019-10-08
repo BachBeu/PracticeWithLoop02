@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In day fibonacci</title>
+</head>
+<body>
+<script>
+    let a = 1;
+    let b = 1;
+    document.write(a + " " + b);
+    let num = parseInt(prompt("Nhập vào một số: "));
+    for(let count = 0; count <= num; count++){
+        c = a + b;
+        a = b;
+        b = c;
+        document.write(c + " ");
+    }
+</script>
+</body>
+</html>
